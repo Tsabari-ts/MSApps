@@ -1,0 +1,38 @@
+[
+    {
+      "id": 120,
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "password": "Gwenborough"
+    },
+    {
+      "id": 121,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "password": "Wisokyburgh"
+    },
+    {
+      "id": 122,
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "password": "McKenziehaven"
+    },
+    {
+      "id": 123,
+      "name": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "password": "53919"
+    },
+    {
+      "id": 124,
+      "name": "Chelsey Dietrich",
+      "email": "bob@example.com",
+      "password": "Roscoeview"
+    },
+    {
+      "id": 125,
+      "name": "Dennis Schulist",
+      "email": "Dennis@kory.com",
+      "password": "porberto789"
+    }
+  ]

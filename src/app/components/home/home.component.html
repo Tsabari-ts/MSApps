@@ -1,0 +1,23 @@
+<div class="home-body">
+<div>
+    <button (click)="GetUsers()"> Get All Users</button>
+    <button (click)="AddNewUser()"> Add New User</button>
+</div>
+
+<div>
+    <label for="userId">Select User ID:</label>
+    <select id="userId" [(ngModel)]="selectedUserId" (click)="GetUserId()">
+      <option *ngFor="let user of users" [value]="user.id">{{ user.id }}</option>
+    </select>
+    <button (click)="GetUserDetails()">Get User Details</button>
+    <button (click)="EditUserDetails()">Edit User Details</button>
+    <button (click)="DeleteUser()">Delete User</button>
+</div>
+
+<div class="errorMessage" *ngIf="error">
+    <p>
+{{errorMessage}}
+    </p>
+</div>
+</div>
+

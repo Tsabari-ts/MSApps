@@ -1,0 +1,24 @@
+<div class="container">
+<table *ngIf="users && users.length > 0">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.password }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <div *ngIf="!users || users.length === 0" class="message">
+    No users available.
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div *ngIf="selectedUser" class="user-details-container">
+    <h2 class="user-details-heading">User Details</h2>
+    <p class="user-details-paragraph"><strong>ID:</strong> {{ selectedUser.id }}</p>
+    <p class="user-details-paragraph"><strong>Name:</strong> {{ selectedUser.name }}</p>
+    <p class="user-details-paragraph"><strong>Email:</strong> {{ selectedUser.email }}</p>
+    <p class="user-details-paragraph"><strong>Password:</strong> {{ selectedUser.password }}</p>
+    
+    <button class="user-details-button" (click)="EditUserDetails()">Edit User Details</button>
+    <button class="user-details-button" (click)="DeleteUser()">Delete User</button>
+</div>
